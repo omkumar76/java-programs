@@ -2,10 +2,10 @@ public class PayrollManagementSystem {
     public static void main(String[] args) {
 
         FullTimeEmployee f = new FullTimeEmployee(
-            101, "Rahul", "IT", 30000, 5000);
+            1, "Abhishek","CS", 30000, 5000);
 
         PartTimeEmployee p = new PartTimeEmployee(
-            102, "Aman", "HR", 80, 200);
+            2, "Rahul", "IT", 80, 200);
 
         System.out.println("--- Full Time Employee ---");
         f.display();
